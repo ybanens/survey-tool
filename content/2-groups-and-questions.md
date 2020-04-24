@@ -3,45 +3,68 @@ title: Questions
 nav: true
 ---
 
-# Get Started
+# Creating Groups and Basic Questions
 
-The `workshop-template-b` [repository](https://github.com/evanwill/workshop-template-b) is a skeleton project. 
-This [site](https://evanwill.github.io/workshop-template-b/) demonstrates the output on gh-pages, and the content pages serve as examples.
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/A2eSz9Wph64" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## Create a question group
+
+It is a requirement of LimeSurvey that each survey has at least one Question group, but it is useful to categorise each set of questions into different Question groups so that respondents understand the focus of any set of questions (refer to the survey design).
 
 {% capture text %}
-1. Fork or import the [repository](https://github.com/evanwill/workshop-template-b) on GitHub.
-2. Clone to your local machine, or work on the GitHub web interface to edit files.
-3. Edit the `_config.yml` with your info.
-4. Edit the content pages in markdown.
-5. Add images to the "images" folder.
-5. Push to GitHub (or commit on the web interface).
-6. In your repo's settings, activate gh-pages, using master branch.{% endcapture %}
-{% include card.md header="Overview" text=text %}
+1.	Click on the large Add Group button on the screen.
+2.	In the Title: text box, type Activity and Movement.  (Refer to the survey design)
+3.	In the Description: text box, type (or copy and Paste as Plain Text):
+You are about to be asked about your day to day activity levels. This section is broken down into two main types of activities: vigorous-intensity sports and moderate-intensity sports.
+When answering, please think about a typical week when you would be at school, university or at work. If you do not work and are not in education, please think about the activities you do during the equivalent hours of the day.
+4.	Click the Save and close button.{% endcapture %}
+{% include card.md header="Question Group 1" text=text %}
 
-## Config
 
-Edit the `_config.yml` to get your workshop website set up.
+## Navigation panel
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-Pellentesque eu velit felis. 
-Duis fermentum est nec mollis scelerisque. Vivamus interdum efficitur mauris, et dignissim velit egestas vitae. 
-Cras dignissim sagittis varius. Pellentesque eu laoreet dui.
+{% capture text %}The panel on the left of the screen is the Navigation panel.  Now that you have created a Question group, the Question explorer section has opened and displays the new Question group.{% endcapture %}
+{% include alert.md text=text color=info %}
 
-```
-Praesent congue:
-    eros = eget
-    accumsan euismod
-```
 
-Praesent congue, eros eget accumsan euismod, lorem dui vulputate leo, tincidunt efficitur risus metus ut risus. 
-Sed pharetra ipsum orci, eu cursus turpis semper egestas. 
+## Create a question
 
-> Pellentesque sodales, felis auctor auctor rutrum, velit quam interdum erat, sit amet placerat urna nisl at justo.
+{% capture text %}
+1.	Click the large Add new question to group button on the screen. (You could alternatively click the plus symbol beside the Question group name in the Question explorer.)
+2.	In the Code: text box, type VI1. (Vigorous Intensity 1 – refer to the survey design)
+3.	In the Question: text box, type (or copy and Paste as Plain Text):
+Vigorous intensity sports
+How many days in a typical week do you do vigorous-intensity sports, fitness or recreational activity?
+Please answer in number of days
+4.	Bold the heading Vigorous intensity sports.
+5.	In the Help: text box, type (or copy and Paste as Plain Text):
+Vigorous-intensity sports include running or football; are likely to cause large increases in breathing or heart rate and should be done for at least 10 minutes continuously.
+6.	Select and italicise the Help: text.{% endcapture %}
+{% include card.md header="Question 1" text=text %}
 
-## Substep
+ 
+### Question settings panel
 
-Nam maximus eget orci id pretium. Pellentesque feugiat mauris eu nulla viverra consectetur. Nullam rutrum augue eget mauris accumsan, ac elementum tellus lacinia. Sed pretium aliquet tortor in ornare. Sed eget aliquet metus. Integer sed arcu turpis. Duis auctor sollicitudin semper. Cras posuere, neque nec varius cursus, massa libero sodales elit, sed tempor nibh ex sit amet nisi. Quisque consequat ante quis diam malesuada, in imperdiet tortor mattis. Aliquam erat volutpat. Morbi tortor elit, sagittis quis nibh ut, gravida cursus arcu.
+The `Question settings panel` is the panel on the right-hand side of the `Question` screen.  As before, clicking on any left-facing arrowhead will expand the `Question settings``, while clicking on each heading will display the options.
+1.	Click on each heading (e.g. Advanced Settings or General Options) to explore the options in the Question settings panel but don’t select anything.
+2.	Click on General options, open the Question type selection list, scroll down to Mask questions, then choose Numerical input.
+3.	Click the Save and close button.
 
-{% include figure.html img="uidaho-workshop.jpg" alt="workshop scene" caption="Be sure to replace all the example values!" width="75%" %}
+{% capture text %}
+1.	Click on the Preview question button on the Survey toolbar.  The preview will open in a new tab.
+2.	Test the question, then close the Preview tab.{% endcapture %}
+{% include card.md header="Preview the question" text=text %}
 
-Ut dapibus lectus tristique efficitur dictum. Quisque efficitur ornare sagittis. Donec ex sem, volutpat quis scelerisque quis, scelerisque non neque. Vivamus convallis felis vel eros pulvinar faucibus. Aliquam finibus pretium odio a pharetra. Nullam ac commodo magna. Fusce et feugiat sem. Nunc vitae scelerisque metus. Aenean sodales placerat mi in aliquet. Curabitur pulvinar auctor mauris quis faucibus. Ut commodo imperdiet ante, at dignissim tellus ultricies ut. Donec at lacus ultrices sem vulputate semper. Donec commodo porta nunc, non tristique mi interdum quis. Phasellus rhoncus bibendum ipsum, ac malesuada augue pulvinar et. Etiam finibus lacus massa, sit amet faucibus lorem consequat sit amet. 
+### Add another question
+
+{% capture text %}
+1.	Click the large Add new Question to Group button on the screen.
+2.	In the Code: text box, type VI2. (Vigorous Intensity 2 – refer to the survey design)
+3.	In the Question: text box, type or copy and Paste as Plain Text:
+How much time do you spend doing vigorous-intensity sports on a typical day?
+Please answer in minutes
+4.	Open the Question type selection list, scroll down to Mask questions, then choose Numerical input.
+5.	Click the Save and close button.{% endcapture %}
+{% include card.md header="Question 2" text=text %}
+
+---
