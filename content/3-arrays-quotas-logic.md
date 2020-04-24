@@ -204,6 +204,7 @@ Please selected how often you eat at least ONE portion of the following foods.
 
 {% capture text %}
 9.	Click the Edit answer options button on the Survey toolbar.
+
 | Code | Value |
 |------|--------------------|
 |MPFa | Rarely or never |
