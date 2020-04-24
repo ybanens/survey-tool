@@ -1,5 +1,5 @@
 ---
-title: Arrays
+title: Registration
 nav: true
 ---
 
