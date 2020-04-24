@@ -187,12 +187,14 @@ Please selected how often you eat at least ONE portion of the following foods.
 
 {% capture text %}
 7.	Click the Edit subquestions button on the Survey toolbar.
-`MPF1	Beef, lamb or pork
-`MPF2	Chicken or turkey (not in batter or breadcrumbs)
-`MPF3	Sausages, bacon, corned beef, meat pies, burgers
-`MPF4	Chicken nuggets, chicken burgers, chicken pies
-`MPF5	White fish
-`MPF6	Oily fish - like herrings, sardines, salmon, trout, mackerel, fresh tuna (not tinned tuna)
+
+`MPF1	Beef, lamb or pork`
+`MPF2	Chicken or turkey (not in batter or breadcrumbs)`
+`MPF3	Sausages, bacon, corned beef, meat pies, burgers`
+`MPF4	Chicken nuggets, chicken burgers, chicken pies`
+`MPF5	White fish`
+`MPF6	Oily fish - like herrings, sardines, salmon, trout, mackerel, fresh tuna (not tinned tuna)`
+
 8.	Click the Save and close button.{% endcapture %}
 {% include card.md header="Create the subquestions" text=text %}
 
