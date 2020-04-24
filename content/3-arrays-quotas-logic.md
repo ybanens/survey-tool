@@ -205,12 +205,12 @@ Please selected how often you eat at least ONE portion of the following foods.
 {% capture text %}
 9.	Click the Edit answer options button on the Survey toolbar.
 
-| Code | Value |
+| Code	|	Value |
 |-----------|--------------------|
-|MPFa | Rarely or never |
-| MPFb | 1-3 times per week |
-| MPFc | 4-6 times per week | 
-| MPFd | 7+ times per week |
+|MPFa	|	Rarely or never |
+| MPFb	|	1-3 times per week |
+| MPFc	|	4-6 times per week | 
+| MPFd	|	7+ times per week |
 
 
 10.	Click the Save and close button.
