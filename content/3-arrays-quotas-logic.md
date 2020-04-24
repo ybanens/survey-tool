@@ -7,9 +7,12 @@ nav: true
 
 ## Conditions
 
+{% capture text %}If statements have the syntax “if…then”, however LimeSurvey Conditions meet the statement “Only show this question if…”  In simple terms, a LimeSurvey Condition is the “then” part of the If statement, so it is applied to the second (conditional) question.
+In this example, we are saying “ask how many hours (VI2) only if the answer to VI1 is 1 or more”.{% endcapture %}
+{% include alert.md text=text color=info %}
+
+
 {% capture text %}
-If statements have the syntax “if…then”, however LimeSurvey Conditions meet the statement “Only show this question if…”  In simple terms, a LimeSurvey Condition is the “then” part of the If statement, so it is applied to the second (conditional) question.
-In this example, we are saying “ask how many hours (VI2) only if the answer to VI1 is 1 or more”.
 1.	With the Question Summary screen showing for the second (conditional) question (VI2), click on the Set conditions button on the Survey toolbar.
 2.	In the Previous questions tab of the Question text box, click on the question that this question is conditional upon – VI1.
 3.	Choose the appropriate Comparison operator – Greater than or equal to
@@ -195,10 +198,13 @@ Please selected how often you eat at least ONE portion of the following foods.
 
 {% capture text %}
 9.	Click the Edit answer options button on the Survey toolbar.
-{% capture text %}MPFa	Rarely or never
-MPFb	1-3 times per week
-MPFc	4-6 times per week
-MPFd	7+ times per week{% endcapture %}
+{% capture text %}
+| Code | Value |
+|------|--------------------|
+|MPFa | Rarely or never |
+| MPFb | 1-3 times per week |
+| MPFc | 4-6 times per week | 
+| MPFd | 7+ times per week |{% endcapture %}
 {% include alert.md text=text color=warning %}
 10.	Click the Save and close button.
 11.	Preview the question, then close the Preview tab.{% endcapture %}
