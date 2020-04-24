@@ -196,6 +196,12 @@ Please selected how often you eat at least ONE portion of the following foods.
 8.	Click the Save and close button.{% endcapture %}
 {% include card.md header="Create the subquestions" text=text %}
 
+| Priority apples | Second priority | Third priority |
+|-------|--------|---------|
+| ambrosia | gala | red delicious |
+| pink lady | jazz | macintosh |
+| honeycrisp | granny smith | fuji |
+
 {% capture text %}
 9.	Click the Edit answer options button on the Survey toolbar.
 | Code | Value |
