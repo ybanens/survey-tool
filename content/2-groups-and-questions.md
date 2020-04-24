@@ -1,5 +1,5 @@
 ---
-title: Groups
+title: Questions
 nav: true
 ---
 
