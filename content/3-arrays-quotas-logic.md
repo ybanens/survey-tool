@@ -88,7 +88,7 @@ Please answer as honestly and accurately as possible.
 
 ## Array question types
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/4159dazqze8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="750" src="https://www.youtube-nocookie.com/embed/4159dazqze8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### Creating Array questions
 
@@ -206,11 +206,12 @@ Please selected how often you eat at least ONE portion of the following foods.
 9.	Click the Edit answer options button on the Survey toolbar.
 
 | Code | Value |
-|------|--------------------|
+|-----------|--------------------|
 |MPFa | Rarely or never |
 | MPFb | 1-3 times per week |
 | MPFc | 4-6 times per week | 
 | MPFd | 7+ times per week |
+
 
 10.	Click the Save and close button.
 11.	Preview the question, then close the Preview tab.{% endcapture %}
@@ -225,7 +226,7 @@ Please selected how often you eat at least ONE portion of the following foods.
 {% capture text %}Quotas are used to terminate the survey when a respondent’s answer is invalid.  For example, you can use Quotas to limit the survey to respondents aged over 25, to balance the respondents (e.g. 50 male and 50 female), or to seek agreement to provided terms and conditions.{% endcapture %}
 {% include alert.md text=text color=info %}
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/zjDf6a0_3es" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="750" src="https://www.youtube-nocookie.com/embed/zjDf6a0_3es" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 1.	Click the Survey button at the top of the Survey explorer to return to the Survey Quick Actions screen.   
 
