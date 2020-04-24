@@ -1,5 +1,5 @@
 ---
-title: Questions
+title: Logic
 nav: true
 ---
 
