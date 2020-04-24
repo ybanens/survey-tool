@@ -1,5 +1,5 @@
 ---
-title: Start
+title: Groups
 nav: true
 ---
 
