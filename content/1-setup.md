@@ -5,7 +5,7 @@ nav: true
 
 # Setting up your survey 
 
-##Creating a survey
+## Creating a survey
 
 {% capture text %}
 1.	Open a browser and go to the Research Survey Centre web page.
@@ -18,41 +18,53 @@ NOTE:  If you are working off-campus, you will need to connect via the VPN clien
 7.	Click the Submit button.{% endcapture %}
 {% include card.md header="Registering a survey" text=text %}
 
-Accessing the survey
-Accessing the survey
-1.	You will have received an email to your Griffith Outlook account which contains a link to open the survey.  For now, click on the https://prodsurvey.rcs.griffith.edu.au/prodls200/admin link that you see on the screen in front of you.
-NOTE:  You can bookmark this page or add it to your Favorites for easy access later on.
+## Accessing the survey
 
-Logging in to LimeSurvey
-Logging in to LimeSurvey
+{% capture text %}
+1.	You will have received an email to your Griffith Outlook account which contains a link to open the survey.  For now, click on the https://prodsurvey.rcs.griffith.edu.au/prodls200/admin link that you see on the screen in front of you.
+NOTE:  You can bookmark this page or add it to your Favorites for easy access later on.{% endcapture %}
+{% include card.md header="Accessing the survey" text=text %}
+
+## Logging in to LimeSurvey
+
+{% capture text %}
 1.	Log in again with your Griffith “s” number and password, then click the Log in button.
 NOTE:  Your Griffith Single Sign-On credentials have been automatically authenticated with LimeSurvey login.
 2.	Click on the List surveys button.  Any surveys you have created will be listed.
 3.	Click on the survey you want to open.
-4.	Read any warnings (shown in brown) and any information panels (shown in blue).  The large buttons on the screen are highlighted blue (available) or grey (not available at this time).
+4.	Read any warnings (shown in brown) and any information panels (shown in blue).  The large buttons on the screen are highlighted blue (available) or grey (not available at this time).{% endcapture %}
+{% include card.md header="Logging in to LimeSurvey" text=text %}
 
-Texts and general settings
-Survey properties - Title
+
+## Texts and general settings
+
+{% capture text %}
 1.	Click on the large Edit text elements and general settings button on the screen.
 2.	Click into the Title: text box.
-3.	Add:    (S)    to the end of the Title to indicate that the survey is in Sandpit. This can be deleted when the survey is upgraded to Production.
-
+3.	Add:    (S)    to the end of the Title to indicate that the survey is in Sandpit. This can be deleted when the survey is upgraded to Production.{% endcapture %}
+{% include card.md header="Survey properties - Title" text=text %}
  
-Survey description
-Survey properties - Description
-1.	Click into the Description: text box.
-2.	Type:    Do YOU have a healthy lifestyle?
+## Survey description
 
-Understanding the HTML toolbar
-Understanding the HTML toolbar
- 
+{% capture text %}
+1.	Click into the Description: text box.
+2.	Type:    Do YOU have a healthy lifestyle?{% endcapture %}
+{% include card.md header="Survey properties - Description" text=text %}
+
+
+## Understanding the HTML toolbar
+
+{% capture text %}
 The HTML toolbar provides options for text formatting in any LimeSurvey text box that allows it.  Most of the buttons will be familiar to you as they are very similar to the functions you see on the Microsoft Word ribbon.
 The first button on the toolbar expands and collapses the text box and is useful if you have a lot of text or a lot of formatting.
 1.	Explore and familiarise yourself with the buttons on the HTML toolbar.
-2.	In the Description: text box, Bold the text YOU.
+2.	In the Description: text box, Bold the text YOU.{% endcapture %}
+{% include card.md header="Understanding the HTML toolbar" text=text %}
 
-Add images
-Survey properties - adding images
+
+## Add images
+
+{% capture text %}
 An image might be a corporate or brand logo, especially if you are conducting collaborative research.
 1.	Still in the Description: text box, insert some <Enter>s before the text, then position the insertion point at the top.
 2.	On the HTML toolbar, click the Insert image button.
@@ -60,7 +72,9 @@ An image might be a corporate or brand logo, especially if you are conducting co
 4.	Click the Upload button and browse to the Exercise Files folder.
 5.	Select HealthyLogo.PNG and click Open.  The file will be uploaded to the Images folder on the LimeSurvey server.
 6.	Double-click on the image to display the Image Properties dialog box again.
-7.	Adjust the properties to suit and click OK.
+7.	Adjust the properties to suit and click OK.{% endcapture %}
+{% include card.md header="Survey properties - adding images" text=text %}
+
 
  
 Welcome message
