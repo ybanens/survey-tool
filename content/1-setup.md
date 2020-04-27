@@ -25,7 +25,7 @@ NOTE:  If you are working off-campus, you will need to connect via the VPN clien
 {% capture text %}
 1.	You will have received an email to your Griffith Outlook account which contains a link to open the survey.  For now, click on the [https://prodsurvey.rcs.griffith.edu.au/prodls200/admin](https://prodsurvey.rcs.griffith.edu.au/prodls200/admin) link that you see on the screen in front of you.
 {% capture text %}**Note:** You can bookmark this page or add it to your Favorites for easy access later on.{% endcapture %}
-{% include alert.md text=text color=info %}
+{% include alert.md text=text color="info" %}
 {% endcapture %}
 {% include card.md header="Accessing the survey" text=text %}
 
@@ -34,7 +34,7 @@ NOTE:  If you are working off-campus, you will need to connect via the VPN clien
 {% capture text %}
 1.	Log in again with your Griffith “s” number and password, then click the `Log in` button.
 {% capture text %}**Note:**  Your Griffith Single Sign-On credentials have been automatically authenticated with LimeSurvey login.{% endcapture %}
-{% include alert.md text=text color=info %}
+{% include alert.md text=text color="info" %}
 2.	Click on the `List surveys` button.  Any surveys you have created will be listed.
 3.	Click on the survey you want to open.
 4.	Read any warnings (shown in brown) and any information panels (shown in blue).  The large buttons on the screen are highlighted blue (available) or grey (not available at this time).{% endcapture %}
@@ -50,7 +50,7 @@ NOTE:  If you are working off-campus, you will need to connect via the VPN clien
 2.	Click into the `Title:` text box.
 3.	Add: **(S)** to the end of the Title to indicate that the survey is in Sandpit. 
 {% capture text %}**Note:** This can be deleted when the survey is upgraded to Production.{% endcapture %}
-{% include alert.md text=text color=info %}
+{% include alert.md text=text color="info" %}
 {% endcapture %}
 {% include card.md header="Survey properties - Title" text=text %}
  
@@ -93,7 +93,7 @@ An image might be a corporate or brand logo, especially if you are conducting co
 {% capture text %}
 1.	Click into the `Welcome message:` text box.
 {% capture text %}**Note:** If you have previously planned your survey in a Microsoft Word document, you might want to copy and paste some text to save typing it again.  Copying and pasting directly from a Microsoft Word document can cause problems as Word has its own underlying codes, so you should always use the `Paste as Plain Text` button on the `HTML toolbar` then reapply any formatting.{% endcapture %}
-{% include alert.md text=text color=warning %}
+{% include alert.md text=text color="warning" %}
 
 2.	Type (or copy and `Paste as Plain Text`):
 
@@ -117,7 +117,7 @@ Note that the larger portion of text goes into the `Welcome message` and not int
 **Link targets**
 In web technologies, Target refers to the window in which the linked item is displayed.  The default is <_Self> which means the window that is currently open.  This setting would require users to click the `<Back>` button to return to the survey and can be confusing for some users.  Whenever you are linking to a document, the `Target` should always be set to **New Window (_blank)**.
 **Note:** Most browsers read “new window” to mean “new tab”.{% endcapture %}`
-{% include alert.md text=text color=info %}
+{% include alert.md text=text color="info" %}
 
 
 7.	Still in the `Link` dialog box, click the `Target` tab.
