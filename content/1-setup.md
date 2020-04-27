@@ -5,7 +5,7 @@ nav: true
 
 # Setting up your survey 
 
-<iframe width="750" height=100% src="https://www.youtube-nocookie.com/embed/JBOgr2e6ggU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="750" height="610" src="https://www.youtube-nocookie.com/embed/JBOgr2e6ggU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Creating a survey
 

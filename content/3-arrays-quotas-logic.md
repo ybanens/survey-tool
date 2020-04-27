@@ -38,7 +38,7 @@ Moderate-intensity sports include brisk walking, cycling or swimming; are likely
 8.	Now click on the VI2 question in Question explorer to select it.
 9.	Click the Copy button on the Survey toolbar.
 10.	Type a new code – MI2.
-11.	In the Question: text box, change “vigorous” intensity sports   to   “moderate” intensity sports.
+11.	In the Question: text box, change “vigorous” intensity sports to “moderate” intensity sports.
 12.	Click the Save and close button on the toolbar.
 13.	With the Question Summary screen showing for MI2, click on the Set conditions button on the Survey toolbar.
 14.	In the Previous questions tab of the Question text box, click on the question that this question is conditional upon – MI1.
@@ -208,8 +208,8 @@ Please selected how often you eat at least ONE portion of the following foods.
 9.	Click the Edit answer options button on the Survey toolbar.
 
 | Code	|	Value |
-|-----------|--------------------|
-|MPFa	|	Rarely or never |
+|-----|------|
+| MPFa	|	Rarely or never |
 | MPFb	|	1-3 times per week |
 | MPFc	|	4-6 times per week | 
 | MPFd	|	7+ times per week |
