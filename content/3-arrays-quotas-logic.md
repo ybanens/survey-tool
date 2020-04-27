@@ -11,6 +11,7 @@ nav: true
 In this example, we are saying “ask how many hours (VI2) only if the answer to VI1 is 1 or more”.{% endcapture %}
 {% include alert.md text=text color=info %}
 
+In this section we will tell LimeSurvey to only display the following questions if certain conditions are met.
 
 {% capture text %}
 1.	With the Question Summary screen showing for the second (conditional) question (VI2), click on the Set conditions button on the Survey toolbar.

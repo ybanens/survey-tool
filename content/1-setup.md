@@ -12,27 +12,30 @@ nav: true
 {% capture text %}
 1.	Open a browser and go to the `Research Survey Centre` web page.
 NOTE:  If you are working off-campus, you will need to connect via the VPN client.
-2.	Click on the Register or Upgrade link in the navigation panel on the left.
-3.	Click on Register a new Survey.
-4.	Log in with your Griffith “s” number and password, then click the Log in button.
-5.	Click on the Sandpit survey radio button.
-6.	Fill in the details for the survey, noting that some fields are mandatory.  For this exercise, enter the title Healthy Lifestyles.
-7.	Click the Submit button.{% endcapture %}
-{% include card.md header="Registering a survey" text=text %}
+2.	Click on the `Register or Upgrade` link in the navigation panel on the left.
+3.	Click on `Register a new Survey`.
+4.	Log in with your Griffith “s” number and password, then click the `Log in` button.
+5.	Click on the `Sandpit survey` radio button.
+6.	Fill in the details for the survey, noting that some fields are mandatory.  For this exercise, enter the title **Healthy Lifestyles**.
+7.	Click the `Submit` button.{% endcapture %}
+{% include car`d.md header="Registering a survey" text=text %}
 
 ## Accessing the survey
 
 {% capture text %}
-1.	You will have received an email to your Griffith Outlook account which contains a link to open the survey.  For now, click on the https://prodsurvey.rcs.griffith.edu.au/prodls200/admin link that you see on the screen in front of you.
-NOTE:  You can bookmark this page or add it to your Favorites for easy access later on.{% endcapture %}
+1.	You will have received an email to your Griffith Outlook account which contains a link to open the survey.  For now, click on the [https://prodsurvey.rcs.griffith.edu.au/prodls200/admin](https://prodsurvey.rcs.griffith.edu.au/prodls200/admin) link that you see on the screen in front of you.
+{% capture text %}NOTE:  You can bookmark this page or add it to your Favorites for easy access later on.{% endcapture %}
+{% include alert.md text=text color=info %}
+{% endcapture %}
 {% include card.md header="Accessing the survey" text=text %}
 
 ## Logging in to LimeSurvey
 
 {% capture text %}
-1.	Log in again with your Griffith “s” number and password, then click the Log in button.
-NOTE:  Your Griffith Single Sign-On credentials have been automatically authenticated with LimeSurvey login.
-2.	Click on the List surveys button.  Any surveys you have created will be listed.
+1.	Log in again with your Griffith “s” number and password, then click the `Log in` button.
+{% capture text %}Note:  Your Griffith Single Sign-On credentials have been automatically authenticated with LimeSurvey login.{% endcapture %}
+{% include alert.md text=text color=info %}
+2.	Click on the `List surveys` button.  Any surveys you have created will be listed.
 3.	Click on the survey you want to open.
 4.	Read any warnings (shown in brown) and any information panels (shown in blue).  The large buttons on the screen are highlighted blue (available) or grey (not available at this time).{% endcapture %}
 {% include card.md header="Logging in to LimeSurvey" text=text %}
@@ -43,22 +46,23 @@ NOTE:  Your Griffith Single Sign-On credentials have been automatically authenti
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/OXf8LPtgPOw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 {% capture text %}
-1.	Click on the large Edit text elements and general settings button on the screen.
-2.	Click into the Title: text box.
-3.	Add:    (S)    to the end of the Title to indicate that the survey is in Sandpit. This can be deleted when the survey is upgraded to Production.{% endcapture %}
+1.	Click on the large `Edit text elements and general settings` button on the screen.
+2.	Click into the `Title:` text box.
+3.	Add: **(S)** to the end of the Title to indicate that the survey is in Sandpit. This can be deleted when the survey is upgraded to Production.{% endcapture %}
 {% include card.md header="Survey properties - Title" text=text %}
  
 ## Survey description
 
 {% capture text %}
-1.	Click into the Description: text box.
-2.	Type:    Do YOU have a healthy lifestyle?{% endcapture %}
+1.	Click into the `Description:` text box.
+2.	Type:    **Do YOU have a healthy lifestyle?**{% endcapture %}
 {% include card.md header="Survey properties - Description" text=text %}
 
 
 ## Understanding the HTML toolbar
 
 {% capture text %}
+{% include figure.html img="text-edit-controls.png" alt="The text editing controls on LimeSurvey" caption="LimeSurvey text editing controls" width="100%" %}
 The HTML toolbar provides options for text formatting in any LimeSurvey text box that allows it.  Most of the buttons will be familiar to you as they are very similar to the functions you see on the Microsoft Word ribbon.
 The first button on the toolbar expands and collapses the text box and is useful if you have a lot of text or a lot of formatting.
 1.	Explore and familiarise yourself with the buttons on the HTML toolbar.
