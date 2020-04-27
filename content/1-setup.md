@@ -61,8 +61,10 @@ NOTE:  If you are working off-campus, you will need to connect via the VPN clien
 
 ## Understanding the HTML toolbar
 
-{% capture text %}
 {% include figure.html img="text-edit-controls.png" alt="The text editing controls on LimeSurvey" caption="LimeSurvey text editing controls" width="100%" %}
+
+
+{% capture text %}
 The HTML toolbar provides options for text formatting in any LimeSurvey text box that allows it.  Most of the buttons will be familiar to you as they are very similar to the functions you see on the Microsoft Word ribbon.
 The first button on the toolbar expands and collapses the text box and is useful if you have a lot of text or a lot of formatting.
 1.	Explore and familiarise yourself with the buttons on the HTML toolbar.
