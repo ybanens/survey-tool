@@ -142,13 +142,14 @@ At the end of the survey, you will want to thank your participants for taking th
 {% capture text %}You have now completed the Welcome, Description and End messages for your survey. Next, you will want to check the general settings of your survey, before you begin to add questions.{% endcapture %}
 {% include alert.md text=text color="success" %}
 
+---
 
 ## Survey settings panel
 
 {% capture text %}
-The Survey settings panel is on the right-hand side of the Edit survey text elements and settings screen.
-1.	Clicking on any left-facing arrowhead will expand the Survey settings.
-2.	Click on each heading to explore the options but don’t select anything at this time.{% endcapture %}
+The `Survey settings panel` is on the right-hand side of the `Edit survey text elements and settings` screen.
+1.	Clicking on any **left-facing arrowhead** will expand the `Survey settings`.
+2.	Click on each **heading** to explore the options but don’t select anything at this time.{% endcapture %}
 {% include card.md header="Survey settings panel" text=text %}
 
 
@@ -156,11 +157,11 @@ The Survey settings panel is on the right-hand side of the Edit survey text elem
 
 {% capture text %}
 Near the top on the right-hand side of the screen you will see three buttons:  Save, Save and close and Close.
-•	The Save button saves your changes and allows you to continue editing.
-•	The Save and close button saves your changes and closes the current screen.
-•	The Close button closes the current screen without saving.
+•	The `Save` button saves your changes and allows you to continue editing.
+•	The `Save and close` button saves your changes and closes the current screen.
+•	The `Close` button closes the current screen without saving.
 
-1.	Click the Save and close button.{% endcapture %}
+1.	Click the `Save and close button`.{% endcapture %}
 {% include card.md header="Survey settings panel" text=text %}
 
 ---

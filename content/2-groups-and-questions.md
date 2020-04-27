@@ -9,14 +9,22 @@ nav: true
 
 ## Create a question group
 
-It is a requirement of LimeSurvey that each survey has at least one Question group, but it is useful to categorise each set of questions into different Question groups so that respondents understand the focus of any set of questions (refer to the survey design).
+Each survey must have at least one `Question group`, but it is useful to categorise each set of questions into different `Question groups` so that respondents understand the focus of any set of questions (refer to the survey design).
 
+First, I must determine that my zombie hordes are ready to follow me into the abyss: 
+
+ - [ ] Get zombie hordes
+ - [ ] Make sure they're loya
+ - [] Profit
+ 
 {% capture text %}
-1.	Click on the large Add Group button on the screen.
-2.	In the Title: text box, type Activity and Movement.  (Refer to the survey design)
-3.	In the Description: text box, type (or copy and Paste as Plain Text):
+1.	Click on the large `Add Group` button on the screen.
+2.	In the `Title:` text box, type **Activity and Movement**.  (Refer to the survey design)
+3.	In the `Description:` text box, type (or copy and `Paste as Plain Text`):
+
 You are about to be asked about your day to day activity levels. This section is broken down into two main types of activities: vigorous-intensity sports and moderate-intensity sports.
 When answering, please think about a typical week when you would be at school, university or at work. If you do not work and are not in education, please think about the activities you do during the equivalent hours of the day.
+
 4.	Click the Save and close button.{% endcapture %}
 {% include card.md header="Question Group 1" text=text %}
 
