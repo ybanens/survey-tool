@@ -67,10 +67,12 @@ How much time do you usually spend sitting or reclining on a typical day?
 6.	Click the Edit answer options button on the Survey toolbar.
 7.	In the first answer box, add Code:    SRa, then in the first text box, type Less than 1 hour.
 8.	Click the Insert a new answer option after this one button (the plus sign), then repeat until all answer options are added, incrementing the codes – SR1b, SR1c, etc. – as you go.
-`SRb		3 hours
-`SRc		4-8 hours
-`SRd		9-12 hours
-`SRe		More than 12 hours
+
+> SRb		3 hours
+> SRc		4-8 hours
+> SRd		9-12 hours
+> SRe		More than 12 hours
+
 9.	Click the Save and close button.
 10.	Preview the question, then close the Preview tab.{% endcapture %}
 {% include card.md header="Create the answer options" text=text %}
@@ -88,7 +90,7 @@ Please answer as honestly and accurately as possible.
 
 ## Array question types
 
-<iframe width="750" src="https://www.youtube-nocookie.com/embed/4159dazqze8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="750" height="315" src="https://www.youtube-nocookie.com/embed/4159dazqze8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### Creating Array questions
 
@@ -228,7 +230,7 @@ Please selected how often you eat at least ONE portion of the following foods.
 {% capture text %}Quotas are used to terminate the survey when a respondent’s answer is invalid.  For example, you can use Quotas to limit the survey to respondents aged over 25, to balance the respondents (e.g. 50 male and 50 female), or to seek agreement to provided terms and conditions.{% endcapture %}
 {% include alert.md text=text color=info %}
 
-<iframe width="750" src="https://www.youtube-nocookie.com/embed/zjDf6a0_3es" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="750" height="315" src="https://www.youtube-nocookie.com/embed/zjDf6a0_3es" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 1.	Click the Survey button at the top of the Survey explorer to return to the Survey Quick Actions screen.   
 
