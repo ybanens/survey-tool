@@ -18,7 +18,7 @@ NOTE:  If you are working off-campus, you will need to connect via the VPN clien
 5.	Click on the `Sandpit survey` radio button.
 6.	Fill in the details for the survey, noting that some fields are mandatory.  For this exercise, enter the title **Healthy Lifestyles**.
 7.	Click the `Submit` button.{% endcapture %}
-{% include car`d.md header="Registering a survey" text=text %}
+{% include card.md header="Registering a survey" text=text %}
 
 ## Accessing the survey
 
