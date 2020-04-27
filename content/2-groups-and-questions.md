@@ -5,7 +5,7 @@ nav: true
 
 # Creating Groups and Basic Questions
 
-<iframe width="750" src="https://www.youtube-nocookie.com/embed/A2eSz9Wph64" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="750" height="315" src="https://www.youtube-nocookie.com/embed/A2eSz9Wph64" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Create a question group
 

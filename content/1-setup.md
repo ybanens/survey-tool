@@ -5,7 +5,7 @@ nav: true
 
 # Setting up your survey 
 
-<iframe width="750" height="610" src="https://www.youtube-nocookie.com/embed/JBOgr2e6ggU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/A2eSz9Wph64" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Creating a survey
 
@@ -40,7 +40,7 @@ NOTE:  Your Griffith Single Sign-On credentials have been automatically authenti
 
 ## Texts and general settings
 
-<iframe width="750" src="https://www.youtube-nocookie.com/embed/OXf8LPtgPOw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="750" height="315" src="https://www.youtube-nocookie.com/embed/OXf8LPtgPOw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 {% capture text %}
 1.	Click on the large Edit text elements and general settings button on the screen.
