@@ -11,11 +11,6 @@ nav: true
 
 Each survey must have at least one `Question group`, but it is useful to categorise each set of questions into different `Question groups` so that respondents understand the focus of any set of questions (refer to the survey design).
 
-First, I must determine that my zombie hordes are ready to follow me into the abyss: 
-
- - [ ] Get zombie hordes
- - [ ] Make sure they're loya
- - [] Profit
  
 {% capture text %}
 1.	Click on the large `Add Group` button on the screen.
