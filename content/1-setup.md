@@ -140,7 +140,7 @@ At the end of the survey, you will want to thank your participants for taking th
 {% include card.md header="End message, End URL and URL description" text=text %}
 
 {% capture text %}You have now completed the Welcome, Description and End messages for your survey. Next, you will want to check the general settings of your survey, before you begin to add questions.{% endcapture %}
-{% include alert.md text=text color=success %}
+{% include alert.md text=text color="success" %}
 
 
 ## Survey settings panel
