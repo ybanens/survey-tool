@@ -5,7 +5,7 @@ layout: default
 
 # Online Research Survey Tool
 
-{% include figure.html img="limesurvey-logo.png" alt="intro image here" caption="LimeSurvey logo" width="100%" %}
+{% include figure.html img="limesurvey-logo.jpg" alt="intro image here" caption="LimeSurvey logo" width="100%" %}
 
 Welcome to this Griffith Researcher Education and Development (RED) workshop on Lime Survey, the Online Research Survey Tool. 
 
