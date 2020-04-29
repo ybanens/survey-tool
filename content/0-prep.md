@@ -7,6 +7,8 @@ nav: true
 
 You **must** use a VPN (Virtual Private Network) to access the Survey Tool if you are off-campus. If you attempt to access it without a VPN you will be presented with a 'Permission Denied' message.
 
+{% include figure.html img="forbidden.png" alt="intro image here" caption="Library workshop" width="75%" %}
+
 ## Installing a VPN
 
 Griffith recommends the use of the FortiClient VPN app.
