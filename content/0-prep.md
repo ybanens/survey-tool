@@ -5,7 +5,10 @@ nav: true
 
 # Workshop Prep
 
-You **must** use a VPN (Virtual Private Network) to access the Survey Tool if you are off-campus. If you attempt to access it without a VPN you will be presented with a 'Permission Denied' message.
+{% capture text %}
+**Note:** You **must** use a VPN (Virtual Private Network) to access the Survey Tool if you are off-campus. If you attempt to access it without a VPN you will be presented with a 'Permission Denied' message.{% endcapture %}
+{% include alert.md text=text color="warning" %}
+
 
 {% include figure.html img="forbidden.png" alt="intro image here" caption="You will receive this message if you try to access the Survey Centre without a VPN" width="100%" %}
 
