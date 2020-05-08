@@ -68,14 +68,14 @@ How much time do you usually spend sitting or reclining on a typical day?**
 {% include card.md header="Create a new question" text=text %}
 
 {% capture text %}
-6.	Click the `Edit answer options` button on the `Survey toolbar``.
+6.	Click the `Edit answer options` button on the `Survey toolbar`.
 7.	In the first answer box, add `Code:`    **SRa**, then in the first text box, type `Less than 1 hour`.
 8.	Click the `Insert a new answer option after this one` button (the '+' sign), then repeat until all answer options are added, incrementing the codes – SR1b, SR1c, etc. – as you go.
 
 
-**SRb		3 hours
-SRc		4-8 hours
-SRd		9-12 hours
+**SRb		3 hours \n
+SRc		4-8 hours \n
+SRd		9-12 hours \n
 SRe		More than 12 hours**
 
 9.	Click the `Save and close` button.
