@@ -73,10 +73,10 @@ How much time do you usually spend sitting or reclining on a typical day?**
 8.	Click the `Insert a new answer option after this one` button (the '+' sign), then repeat until all answer options are added, incrementing the codes – SR1b, SR1c, etc. – as you go.
 
 
-**SRb		3 hours \n
-SRc		4-8 hours \n
-SRd		9-12 hours \n
-SRe		More than 12 hours**
+**SRb		3 hours  
+SRc		4-8 hours  
+SRd		9-12 hours  
+SRe		More than 12 hours  **
 
 9.	Click the `Save and close` button.
 10.	Preview the question, then close the `Preview` tab.{% endcapture %}
