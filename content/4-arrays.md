@@ -44,7 +44,7 @@ Please select how often you eat at least ONE portion of the following foods and 
 8.	Click the `Save and close button`.{% endcapture %}
 {% include card.md header="Create the question" text=text %}
 
-{% capture text %}Array answers have values on two axes â€“ Subquestions on the Y axis and Answer Options on the X axis.{% endcapture %}
+{% capture text %}Array answers have values on two axes Ð Subquestions on the Y axis and Answer Options on the X axis.{% endcapture %}
 {% include alert.md text=text color="info" %}
 
 {% capture text %}
@@ -63,7 +63,7 @@ Beans or pulses (including baked beans)**
 14.	Click the `Edit answer options` button on the `Survey toolbar`.
 15.	`Code:`    **FVa**
 16.	In the first text box, type **Rarely or never**.
-17.	Add the `Answer options:` as for the subquestions incrementing the codes â€“ FVb, FVc, etc. â€“ as you go.
+17.	Add the `Answer options:` as for the subquestions incrementing the codes Ð FVb, FVc, etc. Ð as you go.
 
 **1-3 times per week
 4-6 times per week
@@ -111,9 +111,9 @@ GDS3	Milk, cheese or yoghurt**
 {% capture text %}**Note:** LimeSurvey has remembered these answers which were used previously and is prompting for you to reuse them.  This saves extra typing.{% endcapture %}
 {% include alert.md text=text color="info" %}
 
-**GDSb	1-3 times per week
-GDSc	4-6 times per week
-GDSd	7+ times per week**
+**GDSb	1-3 times per week  
+GDSc	4-6 times per week  
+GDSd	7+ times per week  **
 
 12.	Click the `Save and close` button.
 13.	Preview the question, then close the `Preview tab`.{% endcapture %}
@@ -121,117 +121,47 @@ GDSd	7+ times per week**
 
 {% capture text %}**A note on codes**
 ---
-Have you noticed a pattern in the codes recommended here?  Questions have whole codes â€“ subquestions have incrementing numerals added to the question code, answer options have incrementing alpha characters added to the question code.  This is not a hard and fast rule (you can use whatever codes you like), but it is a consistent standard which links answers with the question when collected data is viewed for analysis.{% endcapture %}
+Have you noticed a pattern in the codes recommended here?  Questions have whole codes Ð subquestions have incrementing numerals added to the question code, answer options have incrementing alpha characters added to the question code.  This is not a hard and fast rule (you can use whatever codes you like), but it is a consistent standard which links answers with the question when collected data is viewed for analysis.{% endcapture %}
 {% include alert.md text=text color="secondary" %}
 
 ## Third array question
 
 {% capture text %}
-1.	Click the Add new Question to Group button for the Food group.
-2.	In the Code: text box, type MPF.
-3.	In the Question: text box, type or copy and Paste as Plain Text:
-Meat, Poultry and Fish
-Please selected how often you eat at least ONE portion of the following foods.
-4.	Bold the heading Meat, Poultry and Fish.
-5.	Question type:    scroll down to Arrays, then choose Array.
-6.	Click the Save and close button.{% endcapture %}
+1.	Click the `Add new Question to Group` button for the **Food** group.
+2.	In the `Code:` text box, type **MPF**.
+3.	In the `Question:` text box, type or copy and `Paste as Plain Text`:
+
+**Meat, Poultry and Fish
+Please selected how often you eat at least ONE portion of the following foods.**
+
+4.	Bold the heading **Meat, Poultry and Fish**.
+5.	`Question type:`    scroll down to `Arrays`, then choose **Array**.
+6.	Click the `Save and close` button.{% endcapture %}
 {% include card.md header="Create the question" text=text %}
 
 {% capture text %}
-7.	Click the Edit subquestions button on the Survey toolbar.
+7.	Click the `Edit subquestions` button on the `Survey toolbar`.
 
-`MPF1	Beef, lamb or pork`
-`MPF2	Chicken or turkey (not in batter or breadcrumbs)`
-`MPF3	Sausages, bacon, corned beef, meat pies, burgers`
-`MPF4	Chicken nuggets, chicken burgers, chicken pies`
-`MPF5	White fish`
-`MPF6	Oily fish - like herrings, sardines, salmon, trout, mackerel, fresh tuna (not tinned tuna)`
+**MPF1	Beef, lamb or pork  
+MPF2	Chicken or turkey (not in batter or breadcrumbs)  
+MPF3	Sausages, bacon, corned beef, meat pies, burgers  
+MPF4	Chicken nuggets, chicken burgers, chicken pies  
+MPF5	White fish  
+MPF6	Oily fish - like herrings, sardines, salmon, trout, mackerel, fresh tuna (not tinned tuna)  **
 
-8.	Click the Save and close button.{% endcapture %}
+8.	Click the `Save and close` button.{% endcapture %}
 {% include card.md header="Create the subquestions" text=text %}
 
-| Priority apples | Second priority | Third priority |
-|-------|--------|---------|
-| ambrosia | gala | red delicious |
-| pink lady | jazz | macintosh |
-| honeycrisp | granny smith | fuji |
-
 {% capture text %}
-9.	Click the Edit answer options button on the Survey toolbar.
+9.	Click the `Edit answer options` button on the `Survey toolbar`.
 
-| Code	|	Value |
-|-----|------|
-| MPFa	|	Rarely or never |
-| MPFb	|	1-3 times per week |
-| MPFc	|	4-6 times per week | 
-| MPFd	|	7+ times per week |
+**MPFa	Rarely or never  
+MPFb	1-3 times per week  
+MPFc	4-6 times per week  
+MPFd	7+ times per week  **
 
-
-10.	Click the Save and close button.
-11.	Preview the question, then close the Preview tab.{% endcapture %}
+10.	Click the `Save and close` button.
+11.	Preview the question, then close the `Preview tab`.{% endcapture %}
 {% include card.md header="Create the answer options" text=text %}
-
----
-
-## Quotas
-
-### Create a Quota question
-
-{% capture text %}Quotas are used to terminate the survey when a respondentâ€™s answer is invalid.  For example, you can use Quotas to limit the survey to respondents aged over 25, to balance the respondents (e.g. 50 male and 50 female), or to seek agreement to provided terms and conditions.{% endcapture %}
-{% include alert.md text=text color=info %}
-
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/zjDf6a0_3es" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-1.	Click the Survey button at the top of the Survey explorer to return to the Survey Quick Actions screen.   
-
-{% capture text %}
-2.	In the Survey explorer panel on the left-hand side of the screen, click on the Add Group button.
-3.	In the Title: text box, type Consent.
-4.	In the Description: box, type (or copy and Paste as Plain Text):
-Please confirm that you consent to participating in this survey.
-5.	Click the Save and close button.{% endcapture %}
-{% include card.md header="Add a new Question Group" text=text %}
-
-{% capture text %}
-6.	Click the Add new Question to Group button.
-7.	In the Code: text box, type C1.
-8.	In the Question: text box, type or copy and Paste as Plain Text:
-I have read and agree to abide by the Code for the Responsible Conduct of Research
-9.	Open the Question type selection list, scroll down to Mask questions, then choose Yes/No.
-10.	Click the Save and close button.{% endcapture %}
-{% include card.md header="Add a new question" text=text %}
-
-{% capture text %}
-1.	Click the Survey button at the top of the Survey explorer to return to the Survey Quick Actions screen.
-2.	Click on the Survey properties button on the Survey toolbar.
-3.	Click on Quotas.
-4.	Under Actions, click the Add new quota button.
-5.	In the Quota name: text box, type:
-Consent Exclusion
-6.	The Quota limit: text box, type 0 (zero).  (A zero limit for a specific answer means that the survey will immediately end.)
-7.	In the Quota message: box, type You have chosen not to continue.
-8.	Leave the End URL: and URL Description: as they are.
-9.	Click the Save button.{% endcapture %}
-{% include card.md header="Create a Quota" text=text %}
-
-{% capture text %}
-1.	Click the Add answer button.
-2.	Click to choose the C1 question, then click Next.
-3.	Click to choose No question, then click Next.
-4.	Click the Close button.{% endcapture %}
-{% include card.md header="Apply the Quota" text=text %}
-
-{% capture text %}NOTE:  Quotas cannot be previewed â€“ they are applied only when the survey is active.{% endcapture %}
-{% include alert.md text=text color=warning %}
-
-## Reordering Question Groups and Questions
-
-{% capture text %}
-1.	In the Survey explorer panel on the left-hand side of the screen, click on the Question Organizer button.
-2.	Point the mouse to the top of the Consent question group to display a four-headed arrow mouse cursor.  Click and drag the question group to the top of the Survey so that it will appear first.
-3.	Click the Save and Close button.
-4.	Preview the survey. Remember the Quota will not apply until the survey is upgraded to Production and activated.{% endcapture %}
-{% include card.md header="Reorganise questions" text=text %}
-
 
 ---
