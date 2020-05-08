@@ -14,31 +14,30 @@ In this example, we are saying “ask how many hours (VI2) only if the answer to
 In this section we will tell LimeSurvey to only display the following questions if certain conditions are met.
 
 {% capture text %}
-1.	With the `Question Summary` screen showing for the second (conditional) question (**VI2**), click on the `Set conditions` button on the `Survey toolbar`.
-2.	In the `Previous questions` tab of the `Question` text box, click on the question that this question is conditional upon – **VI1**.
-3.	Choose the appropriate `Comparison operator` – **Greater than or equal to**
-4.	Click the `Constant` tab in the `Answer` text box, then type **1**.
-5.	Click the `Add Condition` button.
-6.	Click the `Close` button in the top right-hand corner to close the `Conditions designer` window.
-7.	Click `Preview question group` to preview the question, testing entering a **0**, then another number.
-8.	Close the `Preview` tab.{% endcapture %}
+1.	With the Question Summary screen showing for the second (conditional) question (VI2), click on the Set conditions button on the Survey toolbar.
+2.	In the Previous questions tab of the Question text box, click on the question that this question is conditional upon – VI1.
+3.	Choose the appropriate Comparison operator – Greater than or equal to
+4.	Click the Constant tab in the Answer text box, then type 1.
+5.	Click the Add Condition button.
+6.	Click the Close button in the top right-hand corner to close the Conditions designer window.
+7.	Click Preview question group to preview the question, testing entering a 0, then another number.
+8.	Close the Preview tab.{% endcapture %}
 {% include card.md header="Conditions" text=text %}
 
 ## Copy questions
 
 {% capture text %}
-1.	Click on `Question explorer` in the `Survey explorer` panel on the left of the screen.
-2.	Click on the **VI1** question to select it.
-3.	Click the `Copy` button on the `Survey toolbar`.
-4.	In the `Code:` text box, type a new code – **MI1** (Moderate Intensity 1 – refer to the survey design).
-5.	In the `Question:` text box, change “vigorous” intensity sports   to   “**moderate**” intensity sports. (two places)
-6.	In the `Help:` text box, delete the existing text then type (or copy and `Paste as Plain Text`):
+1.	Click on Question explorer in the Survey explorer panel on the left of the screen.
+2.	Click on the VI1 question to select it.
+3.	Click the Copy button on the Survey toolbar.
+4.	In the Code: text box, type a new code – MI1 (Moderate Intensity 1 – refer to the survey design).
+5.	In the Question: text box, change “vigorous” intensity sports   to   “moderate” intensity sports. (two places)
+6.	In the Help: text box, delete the existing text then type (or copy and Paste as Plain Text):
+Moderate-intensity sports include brisk walking, cycling or swimming; are likely to cause small increases in breathing or heart rate, and should be done for at least 10 minutes continuously.
+7.	No Copy options are required for this question - click the Save and close button on the toolbar.
 
-**Moderate-intensity sports include brisk walking, cycling or swimming; are likely to cause small increases in breathing or heart rate, and should be done for at least 10 minutes continuously.**
-
-7.	No `Copy options` are required for this question - click the `Save and close` button on the toolbar.
-8.	Now click on the **VI2** question in `Question explorer` to select it.
-9.	Click the `Copy` button on the `Survey toolbar`.
+8.	Now click on the VI2 question in Question explorer to select it.
+9.	Click the Copy button on the Survey toolbar.
 10.	Type a new code – MI2.
 11.	In the Question: text box, change “vigorous” intensity sports to “moderate” intensity sports.
 12.	Click the Save and close button on the toolbar.
