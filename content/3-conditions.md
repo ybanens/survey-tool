@@ -76,7 +76,7 @@ How much time do you usually spend sitting or reclining on a typical day?**
 **SRb		3 hours  
 SRc		4-8 hours  
 SRd		9-12 hours  
-SRe		More than 12 hours  **
+SRe		More than 12 hours**
 
 9.	Click the `Save and close` button.
 10.	Preview the question, then close the `Preview` tab.{% endcapture %}

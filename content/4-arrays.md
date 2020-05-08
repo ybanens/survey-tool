@@ -44,7 +44,7 @@ Please select how often you eat at least ONE portion of the following foods and 
 8.	Click the `Save and close button`.{% endcapture %}
 {% include card.md header="Create the question" text=text %}
 
-{% capture text %}Array answers have values on two axes Ð Subquestions on the Y axis and Answer Options on the X axis.{% endcapture %}
+{% capture text %}Array answers have values on two axes â€“ Subquestions on the Y axis and Answer Options on the X axis.{% endcapture %}
 {% include alert.md text=text color="info" %}
 
 {% capture text %}
@@ -63,7 +63,7 @@ Beans or pulses (including baked beans)**
 14.	Click the `Edit answer options` button on the `Survey toolbar`.
 15.	`Code:`    **FVa**
 16.	In the first text box, type **Rarely or never**.
-17.	Add the `Answer options:` as for the subquestions incrementing the codes Ð FVb, FVc, etc. Ð as you go.
+17.	Add the `Answer options:` as for the subquestions incrementing the codes â€“ FVb, FVc, etc. â€“ as you go.
 
 **1-3 times per week
 4-6 times per week
@@ -113,7 +113,7 @@ GDS3	Milk, cheese or yoghurt**
 
 **GDSb	1-3 times per week  
 GDSc	4-6 times per week  
-GDSd	7+ times per week  **
+GDSd	7+ times per week**
 
 12.	Click the `Save and close` button.
 13.	Preview the question, then close the `Preview tab`.{% endcapture %}
@@ -121,7 +121,7 @@ GDSd	7+ times per week  **
 
 {% capture text %}**A note on codes**
 ---
-Have you noticed a pattern in the codes recommended here?  Questions have whole codes Ð subquestions have incrementing numerals added to the question code, answer options have incrementing alpha characters added to the question code.  This is not a hard and fast rule (you can use whatever codes you like), but it is a consistent standard which links answers with the question when collected data is viewed for analysis.{% endcapture %}
+Have you noticed a pattern in the codes recommended here?  Questions have whole codes â€“ subquestions have incrementing numerals added to the question code, answer options have incrementing alpha characters added to the question code.  This is not a hard and fast rule (you can use whatever codes you like), but it is a consistent standard which links answers with the question when collected data is viewed for analysis.{% endcapture %}
 {% include alert.md text=text color="secondary" %}
 
 ## Third array question
@@ -158,7 +158,7 @@ MPF6	Oily fish - like herrings, sardines, salmon, trout, mackerel, fresh tuna (n
 **MPFa	Rarely or never  
 MPFb	1-3 times per week  
 MPFc	4-6 times per week  
-MPFd	7+ times per week  **
+MPFd	7+ times per week**
 
 10.	Click the `Save and close` button.
 11.	Preview the question, then close the `Preview tab`.{% endcapture %}
