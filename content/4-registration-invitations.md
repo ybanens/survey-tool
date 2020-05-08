@@ -1,6 +1,8 @@
 ---
-title: Registration
+title: Publish
 nav: true
 ---
 
-# Create Lesson Content
+# Publication and registration
+
+Now it's time to publish your survey! 
