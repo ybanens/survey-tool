@@ -165,3 +165,6 @@ MPFd	7+ times per week**
 {% include card.md header="Create the answer options" text=text %}
 
 ---
+
+{% capture text %}**Ready to move on?** Head to the [next page](5-quotas.html) or [ask a question](https://griffithu.padlet.org/y_banens1/gli5hpobgpzwcuym){:target="_blank"}. {% endcapture %}
+{% include alert.md text=text color="success" %}

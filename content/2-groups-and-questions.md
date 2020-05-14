@@ -78,3 +78,6 @@ Please answer in minutes**
 {% include card.md header="Question 2" text=text %}
 
 ---
+
+{% capture text %}**Ready to move on?** Head to the [next page](3-conditions.html) or [ask a question](https://griffithu.padlet.org/y_banens1/gli5hpobgpzwcuym){:target="_blank"}. {% endcapture %}
+{% include alert.md text=text color="success" %}

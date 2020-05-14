@@ -1,5 +1,5 @@
 ---
-title: Publish
+title: Registration
 nav: true
 ---
 
@@ -83,3 +83,8 @@ OR
 5.	Log in.
 6.	Click on the List surveys button.
 7.	Click on the survey you want to open.
+
+---
+
+{% capture text %}**Ready to move on?** Head to the [next page](7-invitations.html) or [ask a question](https://griffithu.padlet.org/y_banens1/gli5hpobgpzwcuym){:target="_blank"}. {% endcapture %}
+{% include alert.md text=text color="success" %}
