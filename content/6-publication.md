@@ -1,5 +1,5 @@
 ---
-title: Registration
+title: Publication
 nav: true
 ---
 
