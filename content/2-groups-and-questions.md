@@ -29,7 +29,7 @@ When answering, please think about a typical week when you would be at school, u
 {% capture text %}The panel on the left of the screen is the Navigation panel.  Now that you have created a Question group, the Question explorer section has opened and displays the new Question group.{% endcapture %}
 {% include alert.md text=text color=info %}
 
-{% include figure.html img="nav-panel.png" alt="Navigation panel" caption="The navigation panel" align="left" %}
+{% include figure.html img="nav-panel.png" alt="Navigation panel" caption="The navigation panel" align="left" size="50%" %}
 
 ## Create a question
 
