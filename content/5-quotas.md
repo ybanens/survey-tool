@@ -1,5 +1,5 @@
 ---
-title: Logic
+title: Quotas
 nav: true
 ---
 
