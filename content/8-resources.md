@@ -3,7 +3,88 @@ title: Resources
 nav: true
 ---
 
-# Resources
+# Exporting to SPSS and additional support Resources 
+
+## Exporting to SPSS
+SPSS Statistics is a software package used for logical batched and non-batched statistical analysis. 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/C0omLC2Pq44" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+There are two parts to an SPSS export from LimeSurvey:
+ - The syntax file (`survey_xxxx_SPSS_syntax_file.sps`) holds the commands that should be run to import the data. It is like a programming language inside SPSS.
+ - The data file (`survey_xxxx_SPSS_data_file.dat`) contains a comma separated value file with all data.
+
+### General
+
+{% capture text %}
+1.	Go to the Survey quick actions screen (the Home screen) and click on the Responses button.
+2.	Click on Responses & statistics.
+3.	Click the Export button, then click on Export results to a SPSS/PASW command file.{% endcapture %}
+{% include card.md header="To export your response data to SPSS:" text=text %}
+
+{% capture text %}
+When exporting data to SPSS there are two filter options:
+ - you can select which data should be selected (all records/complete records only/incomplete records only) and
+ - the SPSS version the export files will be compatible with (prior version 16/16 or up).
+Follow the instructions shown below (also shown on the Export response data to SPSS page):
+
+1.	Click on the `Export syntax` button to download the syntax file
+2.	Click on the `Export data` button to download the syntax file to the same location as the syntax file
+3.	Open SPSS
+4.	Click on `File`, `Open`, `Syntax`
+5.	Choose the appropriate file (e.g. `c:\desktop\survey_xxxx_SPSS_syntax_file.sps`)
+6.	When the syntax file opens, change the line that reads:
+`FILE='survey_xxxx_SPSS_data_file.dat`'
+to include the path where the files are, e.g.:
+`/FILE='c:\desktop\survey_xxxx_SPSS_data_file.dat`'
+(for Mac user: `/FILE='HD/Users/username/survey_xxxx_SPSS_data_file.dat`')
+
+{% capture text %}NOTE:  include the single quote marks{% endcapture %}
+{% include alert.md text=text color="primary" %}
+
+7.	Now mark the whole command text and click on `Run`, `All` from the menu.
+{% endcapture %}
+{% include card.md header="Export and filter data" text=text %}
+
+{% capture text %}PLEASE BE PATIENT WHILE THE DATA FILE LOADS.{% endcapture %}
+{% include alert.md text=text color="secondary" %}
+
+---
+
+## Additional resources
+
+Use the resources on the website to guide you:
+
+###  Help & Resources
+
+This page contains helpful pointers, hints, tips, links and documents to assist you with the creation of your surveys.
+
+### Training & Consultations
+
+In this page, you can get electronic copies of training documents, as well as registering for additional LimeSurvey™ training or book a consultation
+
+### Services we Offer
+
+This page lists the services offered by the Research Survey Tool Support Team.
+
+### Request Help
+
+From this page, you can submit a request for assistance from the Research Survey Tool Support Team.
+
+### Provide Feedback
+
+A webform for providing feedback to the Research Survey Support Team.
+
+### Frequently asked Questions
+
+See what other users have been concerned about.
+
+### Contact Us
+
+This page provides contact details for the LimeSurvey™ first-level support.  
+
+{% capture text %}Note that your request may be escalated to the Research Survey Tool Support Team if required.{% endcapture %}
+{% include alert.md text=text color="info" %}
 
 It's time to start asking questions! Use the Padlet below to add a question. You might prefer to open it in a new window. 
 
