@@ -48,13 +48,15 @@ Now that you have a participant (yourself) and a valid toekn, you're going to se
 2. Select `Send email invitation`
 3. Highlight and delete the text in the invitation field and type or paste the following: 
 
-**Dear {FIRSTNAME}**
-**Please complete the following survey: {SURVEYNAME}**
-**Access the survey here: {SURVEYURL}**
-**Note that this link is unique to you and can only be used once.**
+**Dear {FIRSTNAME}**  
+**Please complete the following survey: {SURVEYNAME}**  
+**Access the survey here: {SURVEYURL}**  
+**Note that this link is unique to you and can only be used once.**  
 
 4. Click 'Send invitations`{% endcapture %}
 {% include card.md header="Create an invitation" text=text %}
+
+You should receive the invitation in your email straight away. You can test that the invitation link works by clicking on the link in your email.
 ---
 
 {% capture text %}**Ready to move on?** Head to the [next page](8-resources.html) or [ask a question](https://griffithu.padlet.org/y_banens1/gli5hpobgpzwcuym){:target="_blank"}. {% endcapture %}
