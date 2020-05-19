@@ -9,6 +9,10 @@ layout: default
 
 Welcome to this Griffith Researcher Education and Development (RED) workshop on Lime Survey, the Online Research Survey Tool. 
 
+{% capture text %}This workshop content will shortly be migrating to Griffith Library's organisational Github account! Check back here for the address. 
+Posted: 20 May 2020 {% endcapture %}
+{% include alert.md text=text color="danger" %}
+
 LimeSurvey is a fast, free, flexible and secure survey application that is available to you to assist with your research. This workshop is designed to be taken as a series of online videos and exercises, followed by a Q&A workshop. The PowerPoint slides can be found below.
 
 {% capture text %}**Note:** You may need to sign in to your Griffith Office 365 account in order to see the slides.
